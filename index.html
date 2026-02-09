@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Template Showcase</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+   body {
+  background: #131A2A;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;   /* 👈 niche niche */
+  align-items: center;
+  gap: 30px;               /* containers ke beech space */
+  padding: 30px 15px;
+}
+
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: #0f1626;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #cfd3ff;
+    }
+
+    .video-box {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 2px solid #1f2a44;
+    }
+
+    video {
+      width: 100%;
+      display: block;
+    }
+
+    .btn-area {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .buy-btn {
+      background: linear-gradient(135deg, #4f7cff, #6a5cff);
+      color: #fff;
+      padding: 14px 35px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 8px 20px rgba(79,124,255,0.4);
+    }
+
+    .buy-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(79,124,255,0.6);
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        padding: 16px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .buy-btn {
+        font-size: 16px;
+        padding: 12px 28px;
+        width: 100%;
+      }
+    }
+
+      .buy-btn {
+        font-size: 16px;
+        padding: 12px 28px;
+      }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Watch Website Template</h1>
+    <p>Responsive, modern design – perfect for E-commerce startup</p>
+
+    <div class="video-box">
+      <!-- Replace video.mp4 with your template preview video -->
+      <video src="wacth website.mp4" controls></video>
+    </div>
+
+    <div class="btn-area">
+      <!-- Replace # with your payment or product link -->
+      <button class="buy-btn" onclick="window.location.href='https://websites1.gumroad.com/l/watch-website-template?_gl=1*17ue4b*_ga*ODY4MjQ2NjUyLjE3NzA2NzM1MTc.*_ga_6LJN6D94N6*czE3NzA2NzM1MTckbzEkZzEkdDE3NzA2NzY2MTEkajUxJGwwJGgw'">Buy Template – $1</button>
+    </div>
+  </div>
+  
+
+  <div class="container">
+    <h1>Portfolio Website Template</h1>
+    <p>Responsive, modern design – perfect for portfolio</p>
+
+    <div class="video-box">
+      <!-- Replace video.mp4 with your template preview video -->
+      <video src="portfolio web.mp4" controls></video>
+    </div>
+
+    <div class="btn-area">
+      <!-- Replace # with your payment or product link -->
+      <button class="buy-btn" onclick="window.location.href='https://websites1.gumroad.com/l/portfolio-website-template?_gl=1*1j5a9qk*_ga*ODY4MjQ2NjUyLjE3NzA2NzM1MTc.*_ga_6LJN6D94N6*czE3NzA2NzM1MTckbzEkZzEkdDE3NzA2Nzc3ODEkajIzJGwwJGgw'">Buy Template – $1</button>
+    </div>
+  </div>
+
+</body>
+</html>
